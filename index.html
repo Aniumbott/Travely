@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Description" content="It is a Travel planning website." />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="icons/plane.png" />
+    <title>Travely | Travel Agency</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <div class="logo">
+          <img src="./icons/plane.png" alt="Travely Logo" />
+          <h1 id="logo">Travely</h1>
+        </div>
+        <ul>
+          <li><a href="#locations">Locatons</a></li>
+          <li><a href="#benifits">Benifits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>Travel Beyond Limits</h2>
+      <h3>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br />Voluptatem
+        possimus aspernatur omnis maxime deleniti.
+      </h3>
+      <button>Book Now</button>
+    </section>
+
+    <section id="locations">
+      <header class="locations-head">
+        <h2>Tthe PerfactTravelling Experiance.</h2>
+        <h3>
+          We cover everything you need to enjoy.<br />In any season anytime.
+        </h3>
+      </header>
+      <img src="./icons/unnamed.png" class="cloud-1 cloud" />
+      <img src="./icons/unnamed.png" class="cloud-2 cloud" />
+    </section>
+
+    <section id="benifits">
+      <header class="benifits-head">
+        <h2>The Perfect Travel</h2>
+        <h3>
+          We cover Everythingfrom picking hotel <br />
+          toflights and all.
+        </h3>
+      </header>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">
+            <img src="./icons/travel.png" alt="" />
+          </div>
+          <h4>Travel</h4>
+          <p>Travel over200 contries no effort.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <img src="./icons/rest.png" alt="" />
+          </div>
+          <h4>Hotel</h4>
+          <p>Hotels located near polpular areas.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <img src="./icons/departure.png" alt="" />
+          </div>
+          <h4>Fly</h4>
+          <p>Flight includingin every purchase.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="form-wraper">
+        <header class="form-head">
+          <h2>Contact Us</h2>
+        </header>
+        <form action="https://formspree.io/f/xqkwjlvl" method="POST">
+          <div class="name-form">
+            <label for="name"> Name:</label>
+            <input type="text" name="name" required />
+          </div>
+          <div class="email-form">
+            <label for="email"> E-Mail: </label>
+            <input type="text" name="_replyto" required />
+          </div>
+          <button type="submit" value="Send">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wraper">
+        <h5>Travely &copy;</h5>
+        <ul>
+          <li>
+            <a href="#insta"><img src="./icons/insta.png" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="#linkedin"
+              ><img src="./icons/linkedin.ico" alt="Linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="#github"><img src="./icons/github.png" alt="Github" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
