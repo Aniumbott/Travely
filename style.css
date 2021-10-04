@@ -329,16 +329,16 @@ footer ul {
 }
 
 /* Media Query */
-@media screen and (max-width: 932px) {
+@media only screen and (max-device-width: 480px) {
   html {
-    font-size: 45%;
+    font-size: 100%;
   }
   nav {
     justify-content: center;
     text-align: center;
   }
   nav ul {
-    margin: 0;
+    margin: 0px;
   }
   #logo {
     padding: 2rem;
