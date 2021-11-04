@@ -7,4 +7,4 @@ It is a simple one page website of a travel agency named **Travely** (imaginary 
 * Form submission supportd. Thanks to [Formspree.](https://formspree.io/)
 * Responssive.
   
-[Checkout here](https://aniumbott.github.io/Travely/#contact)
+[Checkout here](https://aniumbott.github.io/Travely)
